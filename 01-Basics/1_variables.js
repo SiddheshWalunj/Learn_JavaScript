@@ -1,5 +1,3 @@
-const accountID = 512
-let accountEmail = "snwalunj007@gmail.com"
 
 //  var
 
