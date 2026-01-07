@@ -31,3 +31,13 @@ const obj3 = {...obj1, ...obj2}// use this to spread object
 // console.log(obj3); // { obj1: { '1': 'a', '2': 'b' }, obj2: { '3': 'a', '4': 'b' } }
 
 console.log(obj3); // { '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
+
+const course = {
+    courseName :"js in hindi",
+    price: 999,
+    courseInstructor:"siddhesh"
+}
+// object destructuring
+const {courseInstructor} = course
+console.log(courseInstructor); // siddhesh
+
